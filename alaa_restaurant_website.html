@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#11100e">
+<title>ALAA RESTAURANT | علاء</title>
+<style>
+:root{--bg:#11100e;--panel:#1b1915;--gold:#d6b36a;--cream:#f4ead7;--muted:#b9ad98}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Tahoma,Arial,sans-serif;line-height:1.7}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#11100eeF;border-bottom:1px solid #ffffff18;backdrop-filter:blur(12px)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:22px;font-weight:900;letter-spacing:2px;color:var(--gold)}.brand small{display:block;font-size:10px;letter-spacing:4px;color:var(--cream);font-weight:400;margin-top:-8px}
+nav{display:flex;gap:25px;color:var(--muted);font-size:14px}nav a:hover{color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:#17130c;padding:11px 22px;border-radius:3px;font-weight:700;border:1px solid var(--gold);transition:.2s}.btn:hover{background:transparent;color:var(--gold)}
+.hero{min-height:600px;display:grid;align-items:center;background:linear-gradient(90deg,#100f0dcc,#100f0d75),url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85') center/cover}
+.hero-content{max-width:650px;padding:95px 0}.eyebrow{color:var(--gold);letter-spacing:3px;font-size:13px}.hero h1{font-size:clamp(42px,7vw,78px);line-height:1.15;margin:18px 0}.hero h1 span{color:var(--gold)}.hero p{color:#e4dac8;font-size:18px;max-width:520px;margin:0 0 28px}
+section{padding:85px 0}.section-head{text-align:center;margin-bottom:42px}.section-head .eyebrow{letter-spacing:2px}.section-head h2{font-size:36px;margin:7px 0}.section-head p{color:var(--muted);margin:0}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:-45px;position:relative}.feature{background:var(--panel);padding:24px;text-align:center;border:1px solid #d6b36a35}.feature b{display:block;color:var(--gold);font-size:18px}.feature span{font-size:13px;color:var(--muted)}
+.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.dish{background:var(--panel);border:1px solid #ffffff12;overflow:hidden}.dish img{width:100%;height:210px;object-fit:cover;display:block}.dish-body{padding:18px}.dish-title{display:flex;justify-content:space-between;gap:10px;align-items:center}.dish h3{margin:0;font-size:18px}.price{color:var(--gold);font-weight:800;white-space:nowrap}.dish p{color:var(--muted);font-size:13px;margin:8px 0 0}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.about img{width:100%;height:390px;object-fit:cover}.about h2{font-size:38px;line-height:1.3;margin:10px 0}.about p{color:var(--muted)}
+.contact{background:linear-gradient(#17140fdc,#17140fdc),url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1600&q=85') center/cover}.contact-box{max-width:700px;margin:auto;text-align:center;background:#11100ee8;border:1px solid #d6b36a55;padding:42px 25px}.contact-box h2{font-size:34px;margin:8px}.contact-box p{color:var(--muted)}
+footer{padding:28px 0;border-top:1px solid #ffffff18;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){nav{display:none}.hero{min-height:540px}.hero-content{padding:75px 0}.features{grid-template-columns:1fr;margin-top:0}.menu-grid{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.about img{height:280px}section{padding:65px 0}}
+@media(max-width:480px){.menu-grid{grid-template-columns:1fr}.nav{height:64px}.hero p{font-size:16px}.section-head h2{font-size:29px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#">ALAA <small>RESTAURANT</small></a>
+<nav><a href="#home">الرئيسية</a><a href="#menu">قائمة الطعام</a><a href="#about">من نحن</a><a href="#contact">اتصل بنا</a></nav>
+<a class="btn" href="#menu">اكتشف القائمة</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap"><div class="hero-content">
+<div class="eyebrow">تجربة طعام استثنائية</div>
+<h1>نكهات لا تُنسى،<br><span>وأجواء تستحق الزيارة</span></h1>
+<p>مرحباً بك في ALAA RESTAURANT. اكتشف أطباقاً محضّرة بعناية، ومذاقات تجمع بين الجودة والأناقة في كل تفصيل.</p>
+<a class="btn" href="#menu">شاهد قائمة الطعام</a>
+</div></div></section>
+<div class="wrap"><div class="features">
+<div class="feature"><b>مكونات طازجة</b><span>نختار الأفضل لتحضير كل طبق</span></div>
+<div class="feature"><b>تحضير بعناية</b><span>اهتمام بالتفاصيل في كل وجبة</span></div>
+<div class="feature"><b>أجواء راقية</b><span>مكان مناسب للقاءات الجميلة</span></div>
+</div></div>
+<section id="menu"><div class="wrap">
+<div class="section-head"><div class="eyebrow">مذاق يليق بك</div><h2>قائمة الطعام</h2><p>بعض من اختياراتنا المميزة — الأسعار تجريبية وقابلة للتعديل</p></div>
+<div class="menu-grid">
+<article class="dish"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" alt="برغر"><div class="dish-body"><div class="dish-title"><h3>برغر علاء الخاص</h3><span class="price">1200 دج</span></div><p>لحم مشوي، جبن، خضار طازجة وصلصة المطعم.</p></div></article>
+<article class="dish"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80" alt="طبق باستا" onerror="this.src='https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80'"><div class="dish-body"><div class="dish-title"><h3>باستا كريمية</h3><span class="price">950 دج</span></div><p>باستا بصوص كريمي ولمسة من الأعشاب.</p></div></article>
+<article class="dish"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="لحم مشوي"><div class="dish-body"><div class="dish-title"><h3>طبق المشاوي</h3><span class="price">1600 دج</span></div><p>تشكيلة مشوية تقدم مع إضافات طازجة.</p></div></article>
+<article class="dish"><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80" alt="حلوى" onerror="this.src='https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80'"><div class="dish-body"><div class="dish-title"><h3>حلوى اليوم</h3><span class="price">500 دج</span></div><p>اختيار حلو يتغير حسب المتوفر يومياً.</p></div></article>
+<article class="dish"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80" alt="قهوة"><div class="dish-body"><div class="dish-title"><h3>قهوة إسبريسو</h3><span class="price">250 دج</span></div><p>قهوة غنية لعشاق النكهة الأصيلة.</p></div></article>
+<article class="dish"><img src="https://images.unsplash.com/photo-1513558161293-cdad765edfd4?auto=format&fit=crop&w=800&q=80" alt="مشروب"><div class="dish-body"><div class="dish-title"><h3>عصير طبيعي</h3><span class="price">400 دج</span></div><p>مشروب منعش محضّر من فواكه مختارة.</p></div></article>
+</div></div></section>
+<section id="about"><div class="wrap about">
+<img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1100&q=85" alt="داخل المطعم">
+<div><div class="eyebrow">قصتنا</div><h2>نؤمن أن الوجبة الجميلة تبدأ من التفاصيل</h2><p>في ALAA RESTAURANT نهدف إلى تقديم تجربة تجمع بين الطعم الرائع، الخدمة الودودة، والأجواء المريحة. نرحب بك لتصنع معنا لحظات جميلة.</p><a class="btn" href="#contact">تواصل معنا</a></div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="contact-box">
+<div class="eyebrow">يسعدنا استقبالكم</div><h2>احجز طاولتك أو تواصل معنا</h2><p>أضف رقم هاتف المطعم وعنوانه الحقيقي قبل نشر الموقع.</p>
+<a class="btn" href="https://wa.me/213000000000?text=السلام%20عليكم،%20أريد%20الاستفسار%20عن%20المطعم" target="_blank" rel="noopener">تواصل عبر واتساب</a>
+</div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 ALAA RESTAURANT — جميع الحقوق محفوظة</span><span>صُنع بعناية ✦</span></div></footer>
+</body></html>
